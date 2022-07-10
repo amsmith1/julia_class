@@ -11,6 +11,7 @@ Commands
   - git status to check files in staging area
   - git commit to commit changes to local repository
       -m 'comment' to add a comment
+      -in vim type :wq to save
   - touch <file> to create a new empty file
   - .gitignore a file to add file names to that you dont want to include
   - branches:
@@ -20,13 +21,24 @@ Commands
   Remote: Github
   - git push push to remote repository
   - git pull pull latest changes from repository
-  - git clone to copy a repository onto your machine
+  - git clone <file thingy> to copy a repository onto your machine
+  -
 
 Terminal
 - pwd print working directory
 - cd change directory
 
-Julia
+Julia in terminal
 - julia to enter
 -exit() to exit
 - ] for packages
+
+Julia rules
+  1. don't use globals
+  2. Type declarations
+      - improves performance by providing extra
+
+
+
+
+Git personal access token: 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
